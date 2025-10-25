@@ -8,7 +8,7 @@
     { "src": "/api/telegram", "dest": "/api/telegram.js" },
     { "src": "/api/health", "dest": "/api/health.js" },
     { 
-      "src": "/(.*)", 
+      "src": "/", 
       "dest": "/api/health.js",
       "methods": ["GET"]
     }
